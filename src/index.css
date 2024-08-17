@@ -6,4 +6,7 @@
   .btn-login {
     @apply bg-black px-4 py-2 rounded-md text-white cursor-pointer;
   }
+  .btn-getStarted {
+    @apply rounded-full mx-auto max-w-fit border px-5 py-2 text-sm font-medium shadow-sm border-black hover:ring-gray-400 hover:ring-2;
+  }
 }

@@ -8,7 +8,9 @@ function App() {
   return (
     <>
       <Navbar />
-      <HeroSection />
+      <div className="container mx-auto">
+        <HeroSection />
+      </div>
     </>
   )
 }
